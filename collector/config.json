@@ -73,14 +73,6 @@
           ]
         },
         {
-          "id": "photo_intro",
-          "screen": "scroll_form",
-          "form_title": "Подготовка к съёмке",
-          "field_ids": [
-            "photo_briefing"
-          ]
-        },
-        {
           "id": "photo_profile",
           "screen": "scroll_form",
           "form_title": "Профиль (оба бока)",
@@ -545,12 +537,6 @@
         "validation": {
           "required": false
         }
-      },
-      {
-        "field_id": "photo_briefing",
-        "type": "instruction",
-        "title": "Съёмка на площадке",
-        "instructions": "## Перед съёмкой\n\nСейчас съёмка в **загоне ~5×5 м**: возможны решётки, движение животного, разные углы и лёгкий наклон сверху — это нормально для текущего процесса.\n\nЦель — **не менее 14 фото** на животное, распределённых по категориям ниже.\nКамера — основная (задняя), без zoom, максимальное разрешение.\n"
       },
       {
         "field_id": "photo_profile_guide",
