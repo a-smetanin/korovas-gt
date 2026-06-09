@@ -565,8 +565,7 @@
         "instructions": "Один кадр левого профиля.",
         "multiple": true,
         "validation": {
-          "required": true,
-          "min_items": 1
+          "required": false
         }
       },
       {
@@ -576,8 +575,7 @@
         "instructions": "Один кадр правого профиля.",
         "multiple": true,
         "validation": {
-          "required": true,
-          "min_items": 1
+          "required": false
         }
       },
       {
@@ -593,8 +591,7 @@
         "instructions": "Минимум один кадр.",
         "multiple": true,
         "validation": {
-          "required": true,
-          "min_items": 1
+          "required": false
         }
       },
       {
@@ -607,22 +604,20 @@
         "field_id": "photo_rear_23_left",
         "type": "camera_photo",
         "title": "2/3 сзади — слева",
-        "instructions": "Минимум один снимок.",
+        "instructions": "Можно пропустить и добавить снимки позже.",
         "multiple": true,
         "validation": {
-          "required": true,
-          "min_items": 1
+          "required": false
         }
       },
       {
         "field_id": "photo_rear_23_right",
         "type": "camera_photo",
         "title": "2/3 сзади — справа",
-        "instructions": "Минимум один снимок.",
+        "instructions": "Можно пропустить и добавить снимки позже.",
         "multiple": true,
         "validation": {
-          "required": true,
-          "min_items": 1
+          "required": false
         }
       },
       {
@@ -635,22 +630,20 @@
         "field_id": "photo_front_23_left",
         "type": "camera_photo",
         "title": "2/3 спереди — слева",
-        "instructions": "Минимум один снимок.",
+        "instructions": "Можно пропустить и добавить снимки позже.",
         "multiple": true,
         "validation": {
-          "required": true,
-          "min_items": 1
+          "required": false
         }
       },
       {
         "field_id": "photo_front_23_right",
         "type": "camera_photo",
         "title": "2/3 спереди — справа",
-        "instructions": "Минимум один снимок.",
+        "instructions": "Можно пропустить и добавить снимки позже.",
         "multiple": true,
         "validation": {
-          "required": true,
-          "min_items": 1
+          "required": false
         }
       },
       {
@@ -663,11 +656,10 @@
         "field_id": "photo_front_legs",
         "type": "camera_photo",
         "title": "Передние ноги",
-        "instructions": "Минимум один снимок.",
+        "instructions": "Можно пропустить и добавить снимки позже.",
         "multiple": true,
         "validation": {
-          "required": true,
-          "min_items": 1
+          "required": false
         }
       },
       {
@@ -683,8 +675,7 @@
         "instructions": "Только для быков.",
         "multiple": true,
         "validation": {
-          "required": false,
-          "min_items": 0
+          "required": false
         }
       },
       {
@@ -694,8 +685,7 @@
         "instructions": "Только для коров и телок.",
         "multiple": true,
         "validation": {
-          "required": false,
-          "min_items": 0
+          "required": false
         }
       },
       {
@@ -708,22 +698,20 @@
         "field_id": "photo_head_side",
         "type": "camera_photo",
         "title": "Голова — сбоку",
-        "instructions": "Минимум один снимок.",
+        "instructions": "Можно пропустить и добавить снимки позже.",
         "multiple": true,
         "validation": {
-          "required": true,
-          "min_items": 1
+          "required": false
         }
       },
       {
         "field_id": "photo_head_top",
         "type": "camera_photo",
         "title": "Голова — сверху",
-        "instructions": "Минимум один снимок.",
+        "instructions": "Можно пропустить и добавить снимки позже.",
         "multiple": true,
         "validation": {
-          "required": true,
-          "min_items": 1
+          "required": false
         }
       }
     ]
