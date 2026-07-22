@@ -15,6 +15,7 @@
             "scan_time",
             "cow_name",
             "cow_gender",
+            "cow_breed",
             "cow_identifier"
           ]
         },
@@ -231,6 +232,85 @@
         "type": "text_input",
         "title": "Пол",
         "instructions": "Например: бык, корова, телка, бычок, телёнок.",
+        "validation": {
+          "required": true
+        }
+      },
+      {
+        "field_id": "cow_breed",
+        "type": "single_choice",
+        "title": "Порода",
+        "instructions": "Порода КРС мясного направления.",
+        "options": [
+          {
+            "value": "aberdeen_angus",
+            "label": "Абердин-ангусская"
+          },
+          {
+            "value": "russian_polled",
+            "label": "Русская комолая"
+          },
+          {
+            "value": "galloway",
+            "label": "Галловейская"
+          },
+          {
+            "value": "hereford",
+            "label": "Герефордская"
+          },
+          {
+            "value": "limousin",
+            "label": "Лимузинская"
+          },
+          {
+            "value": "santa_gertrudis",
+            "label": "Санта-гертруда"
+          },
+          {
+            "value": "salers",
+            "label": "Салерская"
+          },
+          {
+            "value": "aubrac",
+            "label": "Обрак"
+          },
+          {
+            "value": "auliekol",
+            "label": "Аулиекольская"
+          },
+          {
+            "value": "kalmyk",
+            "label": "Калмыцкая"
+          },
+          {
+            "value": "kazakh_whiteheaded",
+            "label": "Казахская белоголовая"
+          },
+          {
+            "value": "shorthorn_beef",
+            "label": "Шортгорнская мясного типа"
+          },
+          {
+            "value": "simmental_beef",
+            "label": "Симментальская мясного типа"
+          },
+          {
+            "value": "charolais",
+            "label": "Шароле"
+          },
+          {
+            "value": "chianina",
+            "label": "Кианская"
+          },
+          {
+            "value": "blonde_aquitaine",
+            "label": "Белая (светлая) аквитанская"
+          },
+          {
+            "value": "maine_anjou",
+            "label": "Мен-анжу"
+          }
+        ],
         "validation": {
           "required": true
         }
