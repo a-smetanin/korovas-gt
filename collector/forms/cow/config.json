@@ -1,6 +1,6 @@
 {
   "id": "krs-label",
-  "name": "Бык-производитель",
+  "name": "Корова",
   "version": "2.0",
   "config": {
     "flow": {
@@ -68,10 +68,10 @@
             "withers_back_loin_real_desc",
             "croup_real",
             "croup_real_desc",
-            "scrotum_real",
-            "scrotum_real_desc",
             "ham_real",
             "ham_real_desc",
+            "udder_real",
+            "udder_real_desc",
             "limbs_real",
             "limbs_real_desc"
           ]
@@ -127,10 +127,10 @@
         {
           "id": "photo_genitals",
           "screen": "scroll_form",
-          "form_title": "Мошонка",
+          "form_title": "Вымя",
           "field_ids": [
             "photo_genitals_guide",
-            "photo_scrotum"
+            "photo_udder"
           ]
         },
         {
@@ -233,7 +233,7 @@
         "field_id": "form_scenario_hint",
         "type": "instruction",
         "title": "",
-        "instructions": "## Сценарий: Бык-производитель\n\nПол для этой формы зафиксирован как **бык**. Выбор формы в приложении = выбор типа животного / шкалы оценки."
+        "instructions": "## Сценарий: Корова\n\nПол для этой формы зафиксирован как **корова**. Выбор формы в приложении = выбор типа животного / шкалы оценки."
       },
       {
         "field_id": "cow_breed",
@@ -333,7 +333,7 @@
         "field_id": "months",
         "type": "text_input",
         "title": "Возраст (месяцев)",
-        "instructions": "Возраст в месяцах. Для этой формы ожидается **от 25 месяцев** (бык-производитель).",
+        "instructions": "Возраст в месяцах (для коров — по факту).",
         "validation": {
           "required": false
         }
@@ -477,7 +477,7 @@
         "field_id": "qual_scale_hint",
         "type": "instruction",
         "title": "",
-        "instructions": "## Шкала быков-производителей (прил. 2, актуальная)\n\nИтого максимум **100** баллов (с коэффициентами). Ниже — требования для высшего балла по каждой стати."
+        "instructions": "## Шкала конституции и экстерьера коров (прил. 4)\n\nИтого максимум **100** баллов (с коэффициентами)."
       },
       {
         "field_id": "overall_type_real",
@@ -519,7 +519,7 @@
         "field_id": "head_and_neck_real",
         "type": "text_input",
         "title": "Голова и шея (балл)",
-        "instructions": "От 1.0 до 5.0. Высший балл: Голова типичная для породы, шея хорошо обмускуленная",
+        "instructions": "От 1.0 до 5.0. Высший балл: Голова легкая, типичная для породы, шея короткая, хорошо обмускуленная",
         "validation": {
           "required": false
         }
@@ -537,7 +537,7 @@
         "field_id": "chest_quality_real",
         "type": "text_input",
         "title": "Грудь (балл)",
-        "instructions": "От 1.0 до 5.0. Высший балл: Широкая, глубокая и округлая, без западин за лопатками; хорошо развитый, широкий, выдающийся вперед соколок",
+        "instructions": "От 1.0 до 5.0. Высший балл: Широкая, глубокая, без западин за лопатками; хорошо развитый соколок",
         "validation": {
           "required": false
         }
@@ -588,28 +588,10 @@
         }
       },
       {
-        "field_id": "scrotum_real",
-        "type": "text_input",
-        "title": "Мошонка (балл)",
-        "instructions": "От 1.0 до 5.0. Высший балл: Нормальная с самостоятельно выраженной шейкой достигает уровня скакательного сустава",
-        "validation": {
-          "required": false
-        }
-      },
-      {
-        "field_id": "scrotum_real_desc",
-        "type": "text_input",
-        "title": "Описание: мошонка",
-        "instructions": "По желанию",
-        "validation": {
-          "required": false
-        }
-      },
-      {
         "field_id": "ham_real",
         "type": "text_input",
         "title": "Окорока (балл)",
-        "instructions": "От 1.0 до 5.0. Высший балл: Хорошо развитая мускулатура до скакательного сустава; внутренняя сторона ляжки мясистая; щуп на уровне нижней линии туловища",
+        "instructions": "От 1.0 до 5.0. Высший балл: Хорошо развитая мускулатура, спускающаяся до скакательного сустава",
         "validation": {
           "required": false
         }
@@ -618,6 +600,24 @@
         "field_id": "ham_real_desc",
         "type": "text_input",
         "title": "Описание: окорока",
+        "instructions": "По желанию",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "field_id": "udder_real",
+        "type": "text_input",
+        "title": "Вымя (балл)",
+        "instructions": "От 1.0 до 5.0. Высший балл: Достаточно развитое, правильной формы",
+        "validation": {
+          "required": false
+        }
+      },
+      {
+        "field_id": "udder_real_desc",
+        "type": "text_input",
+        "title": "Описание: вымя",
         "instructions": "По желанию",
         "validation": {
           "required": false
@@ -780,14 +780,14 @@
       {
         "field_id": "photo_genitals_guide",
         "type": "instruction",
-        "title": "Инструкция: мошонка",
-        "instructions": "## Мошонка\n\nКадр для оценки мошонки быка-производителя (уровень скакательного сустава, выраженная шейка)."
+        "title": "Инструкция: вымя",
+        "instructions": "## Вымя\n\nКадр вымени: достаточно развитое, правильной формы."
       },
       {
-        "field_id": "photo_scrotum",
+        "field_id": "photo_udder",
         "type": "camera_photo",
-        "title": "Мошонка",
-        "instructions": "Кадр мошонки.",
+        "title": "Вымя",
+        "instructions": "Кадр вымени.",
         "multiple": true,
         "validation": {
           "required": false
