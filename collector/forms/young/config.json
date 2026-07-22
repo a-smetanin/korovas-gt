@@ -1,7 +1,7 @@
 {
   "id": "krs-label",
   "name": "Молодняк (до 24 мес.)",
-  "version": "2.0",
+  "version": "2.1",
   "config": {
     "flow": {
       "steps": [
@@ -70,58 +70,23 @@
           ]
         },
         {
-          "id": "photo_profile",
+          "id": "photos",
           "screen": "scroll_form",
-          "form_title": "Профиль (оба бока)",
+          "form_title": "Фото ракурсы",
           "field_ids": [
             "photo_profile_guide",
             "photo_profile_left",
-            "photo_profile_right"
-          ]
-        },
-        {
-          "id": "photo_top",
-          "screen": "scroll_form",
-          "form_title": "Вид сверху",
-          "field_ids": [
+            "photo_profile_right",
             "photo_top_guide",
-            "photo_top"
-          ]
-        },
-        {
-          "id": "photo_rear_23",
-          "screen": "scroll_form",
-          "form_title": "2/3 сзади (оба бока)",
-          "field_ids": [
+            "photo_top",
             "photo_rear_23_guide",
             "photo_rear_23_left",
-            "photo_rear_23_right"
-          ]
-        },
-        {
-          "id": "photo_front_23",
-          "screen": "scroll_form",
-          "form_title": "2/3 спереди (оба бока)",
-          "field_ids": [
+            "photo_rear_23_right",
             "photo_front_23_guide",
             "photo_front_23_left",
-            "photo_front_23_right"
-          ]
-        },
-        {
-          "id": "photo_front_legs",
-          "screen": "scroll_form",
-          "form_title": "Передние ноги",
-          "field_ids": [
+            "photo_front_23_right",
             "photo_front_legs_guide",
-            "photo_front_legs"
-          ]
-        },
-        {
-          "id": "photo_head",
-          "screen": "scroll_form",
-          "form_title": "Голова",
-          "field_ids": [
+            "photo_front_legs",
             "photo_head_guide",
             "photo_head_side",
             "photo_head_top"
@@ -217,13 +182,13 @@
         "field_id": "form_scenario_hint",
         "type": "instruction",
         "title": "",
-        "instructions": "## Сценарий: Молодняк (бычки и тёлки до 24 мес.)\n\nПол для этой формы зафиксирован как **молодняк (бычок / тёлка)**. Выбор формы в приложении = выбор типа животного / шкалы оценки."
+        "instructions": "## Молодняк (бычки и тёлки до 24 мес.)\n\nТип животного для этой формы: **молодняк (бычок / тёлка)**."
       },
       {
         "field_id": "young_sex",
         "type": "single_choice",
         "title": "Пол молодняка",
-        "instructions": "Бычок или тёлка (шкала мясных форм одна).",
+        "instructions": "Бычок или тёлка.",
         "options": [
           {
             "value": "bull_calf",
@@ -480,7 +445,7 @@
         "field_id": "qual_scale_hint",
         "type": "instruction",
         "title": "",
-        "instructions": "## Шкала мясных форм молодняка (прил. 3)\n\nПрименимо к бычкам и тёлкам **до 24 месяцев**. Итого максимум **60** баллов."
+        "instructions": "## Шкала мясных форм молодняка\n\nПрименимо к бычкам и тёлкам **до 24 месяцев**. Итого максимум **60** баллов."
       },
       {
         "field_id": "overall_musculature_real",

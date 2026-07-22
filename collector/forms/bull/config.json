@@ -1,7 +1,7 @@
 {
   "id": "krs-label",
   "name": "Бык-производитель",
-  "version": "2.0",
+  "version": "2.1",
   "config": {
     "flow": {
       "steps": [
@@ -77,67 +77,25 @@
           ]
         },
         {
-          "id": "photo_profile",
+          "id": "photos",
           "screen": "scroll_form",
-          "form_title": "Профиль (оба бока)",
+          "form_title": "Фото ракурсы",
           "field_ids": [
             "photo_profile_guide",
             "photo_profile_left",
-            "photo_profile_right"
-          ]
-        },
-        {
-          "id": "photo_top",
-          "screen": "scroll_form",
-          "form_title": "Вид сверху",
-          "field_ids": [
+            "photo_profile_right",
             "photo_top_guide",
-            "photo_top"
-          ]
-        },
-        {
-          "id": "photo_rear_23",
-          "screen": "scroll_form",
-          "form_title": "2/3 сзади (оба бока)",
-          "field_ids": [
+            "photo_top",
             "photo_rear_23_guide",
             "photo_rear_23_left",
-            "photo_rear_23_right"
-          ]
-        },
-        {
-          "id": "photo_front_23",
-          "screen": "scroll_form",
-          "form_title": "2/3 спереди (оба бока)",
-          "field_ids": [
+            "photo_rear_23_right",
             "photo_front_23_guide",
             "photo_front_23_left",
-            "photo_front_23_right"
-          ]
-        },
-        {
-          "id": "photo_front_legs",
-          "screen": "scroll_form",
-          "form_title": "Передние ноги",
-          "field_ids": [
+            "photo_front_23_right",
             "photo_front_legs_guide",
-            "photo_front_legs"
-          ]
-        },
-        {
-          "id": "photo_genitals",
-          "screen": "scroll_form",
-          "form_title": "Мошонка",
-          "field_ids": [
+            "photo_front_legs",
             "photo_genitals_guide",
-            "photo_scrotum"
-          ]
-        },
-        {
-          "id": "photo_head",
-          "screen": "scroll_form",
-          "form_title": "Голова",
-          "field_ids": [
+            "photo_scrotum",
             "photo_head_guide",
             "photo_head_side",
             "photo_head_top"
@@ -233,7 +191,7 @@
         "field_id": "form_scenario_hint",
         "type": "instruction",
         "title": "",
-        "instructions": "## Сценарий: Бык-производитель\n\nПол для этой формы зафиксирован как **бык**. Выбор формы в приложении = выбор типа животного / шкалы оценки."
+        "instructions": "## Бык-производитель\n\nТип животного для этой формы: **бык**."
       },
       {
         "field_id": "cow_breed",
@@ -477,7 +435,7 @@
         "field_id": "qual_scale_hint",
         "type": "instruction",
         "title": "",
-        "instructions": "## Шкала быков-производителей (прил. 2, актуальная)\n\nИтого максимум **100** баллов (с коэффициентами). Ниже — требования для высшего балла по каждой стати."
+        "instructions": "## Шкала быков-производителей\n\nИтого максимум **100** баллов (с коэффициентами). Ниже — требования для высшего балла по каждой стати."
       },
       {
         "field_id": "overall_type_real",
