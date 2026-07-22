@@ -243,71 +243,71 @@
         "instructions": "Порода КРС мясного направления.",
         "options": [
           {
-            "value": "aberdeen_angus",
+            "value": "Абердин-ангусская",
             "label": "Абердин-ангусская"
           },
           {
-            "value": "russian_polled",
+            "value": "Русская комолая",
             "label": "Русская комолая"
           },
           {
-            "value": "galloway",
+            "value": "Галловейская",
             "label": "Галловейская"
           },
           {
-            "value": "hereford",
+            "value": "Герефордская",
             "label": "Герефордская"
           },
           {
-            "value": "limousin",
+            "value": "Лимузинская",
             "label": "Лимузинская"
           },
           {
-            "value": "santa_gertrudis",
+            "value": "Санта-гертруда",
             "label": "Санта-гертруда"
           },
           {
-            "value": "salers",
+            "value": "Салерская",
             "label": "Салерская"
           },
           {
-            "value": "aubrac",
+            "value": "Обрак",
             "label": "Обрак"
           },
           {
-            "value": "auliekol",
+            "value": "Аулиекольская",
             "label": "Аулиекольская"
           },
           {
-            "value": "kalmyk",
+            "value": "Калмыцкая",
             "label": "Калмыцкая"
           },
           {
-            "value": "kazakh_whiteheaded",
+            "value": "Казахская белоголовая",
             "label": "Казахская белоголовая"
           },
           {
-            "value": "shorthorn_beef",
+            "value": "Шортгорнская мясного типа",
             "label": "Шортгорнская мясного типа"
           },
           {
-            "value": "simmental_beef",
+            "value": "Симментальская мясного типа",
             "label": "Симментальская мясного типа"
           },
           {
-            "value": "charolais",
+            "value": "Шароле",
             "label": "Шароле"
           },
           {
-            "value": "chianina",
+            "value": "Кианская",
             "label": "Кианская"
           },
           {
-            "value": "blonde_aquitaine",
+            "value": "Белая (светлая) аквитанская",
             "label": "Белая (светлая) аквитанская"
           },
           {
-            "value": "maine_anjou",
+            "value": "Мен-анжу",
             "label": "Мен-анжу"
           }
         ],
